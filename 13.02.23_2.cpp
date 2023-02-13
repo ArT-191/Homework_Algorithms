@@ -15,6 +15,6 @@ int main() {
     int arr[] = {1, 3, 20, 4, 1, 0};
     int n = sizeof(arr) / sizeof(arr[0]);
     int peakIndex = PeekFinder(arr, 0, n - 1);
-    std::cout << arr[peakIndex];
+    std::cout <<"The peek of array is: "<< arr[peakIndex];
     return 0;
 }
