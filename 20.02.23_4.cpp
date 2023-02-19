@@ -41,7 +41,7 @@ std::vector<int> merge_sort(std::vector<int> &vec){
 }
 
 int main() {
-    std::vector<int> vec{5, 2, 7, 3, 8, 1, 9, 4, 6};
+    std::vector<int> vec{12, 5, 6, 8, 4, 8, 8, 6, 2, 3, 9};
 
     std::cout << "Before sorting: ";
     for (const auto &v : vec)
