@@ -25,7 +25,7 @@ void sumOfUnitFractions(int a, int b) {
         denominators.resize(distance(denominators.begin(), it));
     }
     
-    // print the sum of unique fractions
+    
     std::cout << "Sum of unique fractions with numerator 1:\n";
     for (int i = 0; i < denominators.size(); i++) {
         if (i == denominators.size() - 1) {
