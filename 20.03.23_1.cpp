@@ -40,7 +40,7 @@ int main() {
     
     int a,b; 
     std::cin>>a>>b;
-    sumOfUnitFractions(a, b); // call the function
+    sumOfUnitFractions(a, b); 
     
     return 0;
 }
